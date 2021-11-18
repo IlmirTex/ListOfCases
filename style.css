@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 350px;
+}
+
+.task-list__title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+.task__button-add{
+    background-color: black;
+    color: white ;
+    border-radius: 4px;
+    padding: 4px 25px 4px 25px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 15px;
+    border: 3px solid black;
+}
+
+.task-list__input button:hover {
+    background-color: white;
+    color: black;
+    transition: .3s;
+}
+
+.task-list__input {
+    padding: 10px;
+}
+.task-list__input input {
+    border: 3px solid black;
+}
+.task-list__buttons {
+    border-bottom:  1px solid rgb(179, 179, 179);
+    padding: 10px 10px 20px 10px;
+}
+.task-list__button {
+    padding: 3px;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 3px;
+    border: 3px solid black;
+}
+.task-list__button:hover {
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+
+
+/* tasks */
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    padding: 5px 15px 30px 15px;
+}
+
+.task-text {
+    margin: 10px 0px 20px 0px;
+}
+.button-delete {
+    margin-left: 15px;
+}
+
+.button-task {
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid black;
+    font-weight: 600;
+    padding: 4px 15px 4px 15px;
+}
+.button-task:hover{
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+.circle {
+    width: 60px; 
+    height: 60px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 3px solid rgb(167, 0, 0);
+    margin: 10px 20px 0px 0px;
+}
+.circle-ready {
+    border: 3px solid rgb(62, 197, 9);
+}
+
+
+
+
+
