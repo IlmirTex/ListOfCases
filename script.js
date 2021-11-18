@@ -88,7 +88,6 @@ function readyButton (event) {
         event.target.classList.remove('button-ready');
     } else
     if (event.target.classList.contains('button-unready')){
-        console.log(111);
         event.target.parentNode.parentNode.nextSibling.classList.remove('circle-ready');
         event.target.innerText = "READY";
         event.target.classList.remove('button-unready');
