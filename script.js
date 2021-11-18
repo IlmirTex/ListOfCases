@@ -83,6 +83,17 @@ output.addEventListener('click', (event) => {
 function readyButton (event) {
     if(event.target.classList.contains('button-ready')) {
         event.target.parentNode.parentNode.nextSibling.classList.add('circle-ready');
+        event.target.innerText = "UNREADY";
+        event.target.classList.add('button-unready');
+        event.target.classList.remove('button-ready');
+    } else
+    if (event.target.classList.contains('button-unready')){
+        console.log(111);
+        event.target.parentNode.parentNode.nextSibling.classList.remove('circle-ready');
+        event.target.innerText = "READY";
+        event.target.classList.remove('button-unready');
+        event.target.classList.add('button-ready');
+
     }
 }
 
